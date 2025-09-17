@@ -1,12 +1,48 @@
-# React + Vite
+# NextCent Landing Page  
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive landing page built with **React** (or Next.js if you’re using it) showcasing the **NextCent** brand.  
+The project is fully responsive, supports **light/dark mode**, and follows clean component-based design.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Features  
+- Responsive layout (mobile, tablet, desktop)  
+- Light & Dark mode toggle  
+- Modern UI with reusable components  
+- Animated hamburger menu for mobile navigation  
+- Marketing cards with content overlays  
+- Clean typography & consistent theme colors  
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📸 Screenshots  
+
+### Light Mode  
+![Light Mode Screenshot](./screenshots/lightmode.png)  
+
+### Dark Mode  
+![Dark Mode Screenshot](./screenshots/darkmode.png)  
+
+---
+
+## 🛠️ Tech Stack  
+- **React** – UI framework  
+- **CSS3** – Styling  
+- **Lucide React** – Icon set  
+- **Vite** – Build tool (choose your setup)  
+
+---
+
+## 🚀 Getting Started  
+
+```bash
+git clone https://github.com/Huzaifa150921/Nextcent_Landing_Page.git
+cd Nextcent_Landing_Page
+npm install
+npm run dev
+```
+
+
+
+## 📂 Project Structure  
+
