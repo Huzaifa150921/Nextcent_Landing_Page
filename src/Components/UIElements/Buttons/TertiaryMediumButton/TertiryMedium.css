@@ -1,0 +1,13 @@
+.BtnTertiaryMedium{
+    padding: 0.9rem 2rem 0.9rem 2rem;
+    cursor: pointer;
+    color: var(--TertiaryButton-TextColor);
+    background-color: var(--TertiaryButton-BgColor);
+    border: none;
+    font-weight: 500;
+    border-radius: 0.3rem;
+}
+
+.BtnTertiaryMedium:hover{
+    background-color: var(--TertiaryButtonHover-BgColor);
+}

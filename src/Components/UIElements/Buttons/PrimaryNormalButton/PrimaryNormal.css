@@ -1,0 +1,13 @@
+.BtnPrimaryNormal{
+    padding: 1rem 2rem 1rem 2rem;
+    color: var(--PrimaryButtons-TextColor);
+    background-color: var(--PrimaryButton-BgColor);
+    cursor: pointer;
+    border: none;
+    border-radius: 0.3rem;
+    font-weight: 500;
+}
+
+.BtnPrimaryNormal:hover{
+    background-color: var(--PrimaryButtonHover-BgColor);
+}

@@ -1,0 +1,74 @@
+.MarketingCard {
+  position: relative;
+  width: 100%;
+  max-width: 280px;      
+  border-radius: 12px;
+  overflow: visible;
+  margin: 1.5rem auto;
+  flex-shrink: 0;   
+  
+       
+}
+
+.MarketingImage {
+  width: 100%;
+  display: block;
+  border-radius: 12px;
+  height: auto;
+}
+
+.MarketingContent {
+  background-color: var(--MarketingCard-bgColor); 
+  position: absolute;
+  bottom: -20%;           
+  left: 50%;
+  transform: translateX(-50%);
+  width: 90%;            
+
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 6px 16px var(--MarketingCardShadow-BgColor);
+
+  text-align: center;
+  word-wrap: break-word;  
+  overflow-wrap: break-word;
+}
+
+.MarketingContent h6 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: var(--MarketingCardBody-TextColor);
+  margin-bottom: 0.8rem;
+ 
+}
+
+@media (max-width: 768px) {
+  .MarketingCard {
+    max-width: 220px;    
+  }
+
+  .MarketingContent {
+    padding: 0.8rem;
+    bottom: -18%;
+  }
+
+  .MarketingContent h6 {
+    font-size: 0.85rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .MarketingCard {
+    max-width: 100%;    
+  }
+
+  .MarketingContent {
+    width: 92%;
+    bottom: -15%;
+    padding: 0.7rem;
+  }
+
+  .MarketingContent h6 {
+    font-size: 0.8rem;
+  }
+}

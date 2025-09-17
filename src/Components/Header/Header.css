@@ -1,0 +1,96 @@
+.Header {
+  background-color: var(--Navbar-BgColor);
+  width: 100%;
+  min-height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 0 2rem;
+}
+
+
+.HeaderButtonFlex {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+
+.ThemeToggle {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  color: #000; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.4rem;
+  border-radius: 6px;
+  transition: background 0.3s ease, color 0.3s ease, transform 0.2s ease;
+}
+
+.ThemeToggle:hover {
+  transform: scale(1.1);
+
+}
+
+
+
+
+.ThemeToggle:hover {
+  transform: scale(1.1);
+}
+
+
+.Hamburger {
+  display: none;
+  cursor: pointer;
+}
+
+
+.MobileMenu {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 1rem;
+  background-color: var(--Navbar-BgColor);
+  animation: slideDown 0.3s ease-in-out;
+}
+
+@keyframes slideDown {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (max-width: 1024px) {
+  .DesktopNav {
+    display: none;
+  }
+
+  .Hamburger {
+    display: block;
+  }
+
+  .MobileMenu {
+    display: flex;
+  }
+
+  .MobileButton {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.8rem;
+  }
+
+  .Header {
+    justify-content: space-between;
+    padding: 1rem;
+  }
+}
+

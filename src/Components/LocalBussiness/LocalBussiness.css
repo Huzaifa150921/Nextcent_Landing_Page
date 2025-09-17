@@ -1,0 +1,106 @@
+.LocalBussiness{
+    min-height: 30vh;
+    width: 100%;
+    background-color: var(--LocalBussiness-BgColor);
+}
+
+.LocalBussinessHeading1{
+    color: var(--LocalBussinessPrimaryHeading-TextColor);
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.LocalBussinessHeading2{
+    color: var(--LocaalBussinessSecondaryHeadingTextColor);
+    font-size: 2rem;
+    font-weight: 600;
+    padding-bottom: 0.5rem;
+}
+
+.LocalBussinessBody{
+    color: var(--LocalBussinessBody-TextColor);
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.LocalBussinessFlex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7rem;
+    padding-top: 2rem;
+}
+
+.BussinessBadgeGroup1{
+    display: flex;
+   gap: 4rem;
+   align-items: center;
+}
+.BussinessBadgeGroup2{
+    display: flex;
+    align-items: center;
+   gap: 4rem;
+}
+
+
+@media (max-width: 1024px) {
+    .LocalBussinessFlex {
+        flex-direction: column;
+        gap: 2rem;
+        padding-top: 1.5rem;
+    }
+
+   .BussinessBadgeGroup1{
+  
+    flex-direction: row;
+   }
+   .BussinessBadgeGroup2{
+  
+    flex-direction: row;
+   }
+    .LocalBussinessHeadings{
+        text-align: center;
+    }
+}
+
+@media (max-width: 768px) {
+    .LocalBussinessHeading1,
+    .LocalBussinessHeading2 {
+        font-size: 1.6rem;
+    }
+
+
+    .LocalBussinessBody {
+        font-size: 0.9rem;
+    }
+
+     .BussinessBadgeGroup1{
+  
+    flex-direction: row;
+   }
+   .BussinessBadgeGroup2{
+  
+    flex-direction: row;
+   }
+}
+
+@media (max-width: 480px) {
+    .LocalBussinessHeading1,
+    .LocalBussinessHeading2 {
+        font-size: 1.4rem;
+    }
+
+    .LocalBussinessBody {
+        font-size: 0.85rem;
+    }
+
+     .BussinessBadgeGroup1{
+  
+    flex-direction: row;
+   }
+   .BussinessBadgeGroup2{
+  
+    flex-direction: row;
+   }
+}
+

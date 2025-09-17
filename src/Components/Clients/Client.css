@@ -1,0 +1,67 @@
+.Client {
+    width: 100%;
+    min-height: 25vh;
+    padding: 1rem 0;
+    background-color: var(--Client-BgColor);
+}
+
+.Client h3 {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 600;
+    color: var(--ClientHeading-TextColor);
+    padding: 1rem 1rem 0.5rem 1rem;
+}
+
+.Client h6 {
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--clientbody-TextColor);
+    padding: 0.5rem 1rem 1.5rem 1rem;
+}
+
+.ClientLogos {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 2rem;
+    align-items: center;
+    padding: 1rem 2%;
+}
+
+@media (max-width: 1024px) {
+    .Client h3 {
+        font-size: 1.7rem;
+    }
+    .Client h6 {
+        font-size: 0.9rem;
+    }
+    .ClientLogos {
+        gap: 1.5rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .Client h3 {
+        font-size: 1.5rem;
+    }
+    .Client h6 {
+        font-size: 0.85rem;
+    }
+    .ClientLogos {
+        gap: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .Client h3 {
+        font-size: 1.3rem;
+    }
+    .Client h6 {
+        font-size: 0.8rem;
+    }
+    .ClientLogos {
+        gap: 0.8rem;
+    }
+}

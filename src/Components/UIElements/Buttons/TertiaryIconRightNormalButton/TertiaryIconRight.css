@@ -1,0 +1,14 @@
+.BtnTertiaryIconRight{
+    padding: 1rem 2rem 1rem 2rem;
+    cursor:pointer;
+    background-color: var(--TertiaryButton-BgColor);
+    color: var(--TertiaryButton-TextColor);
+    border-radius: 0.3rem;
+    font-weight: 500;
+    
+    border: none;
+}
+
+.BtnTertiaryIconRight:hover{
+    background-color: var(--TertiaryButtonHover-BgColor);
+}

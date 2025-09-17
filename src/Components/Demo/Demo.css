@@ -1,0 +1,46 @@
+.Demo {
+  width: 100%;
+  min-height: 40vh;
+  background-color: var(--Demo-BgColor);
+
+  display: flex;
+  flex-direction: column;   
+  justify-content: center;
+  align-items: center;     
+  gap: 1rem;               
+}
+
+.Demo h1 {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 600;
+  color: var(--DemoHeading-TextColor);
+}
+
+
+@media (max-width: 1024px) {
+  .Demo h1 {
+    font-size: 2.5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .Demo {
+    padding: 1.5rem;
+  }
+
+  .Demo h1 {
+    font-size: 2rem;
+  }
+}
+
+
+@media (max-width: 480px) {
+  .Demo {
+    padding: 1rem;
+  }
+
+  .Demo h1 {
+    font-size: 1.6rem;
+  }
+}

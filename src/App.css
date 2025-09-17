@@ -1,0 +1,149 @@
+:root{
+
+  /* Navbar Section  */
+  --NavbarLink-TextColor:rgba(24, 25, 31, 1);
+  --Navbar-BgColor:rgba(245, 247, 250, 1);
+  
+
+
+  /* Button Section  */
+  --PrimaryButtons-TextColor:rgba(255, 255, 255, 1);
+  --PrimaryButton-BgColor:rgba(76, 175, 79, 1);
+  --PrimaryButtonHover-BgColor:rgba(76, 175, 79, 1);
+  --TertiaryButton-TextColor:rgba(76, 175, 79, 1);
+  --TertiaryButton-BgColor:rgba(245, 247, 250, 1);
+  --TertiaryButtonHover-BgColor:rgba(255, 255, 255, 1);
+
+  /* Coursal Section  */
+  --CoursalMainHeading-TextColor:rgba(77, 77, 77, 1);
+  --CoursalSecondaryHeading-TextColor:rgba(76, 175, 79, 1);
+  --CoursalBody-TextColor:rgba(113, 113, 113, 1);
+  --CoursalActiveDot-Color:rgba(76, 175, 79, 1);
+  --CoursalDeActiveDot-Color:rgba(113, 113, 113, 1);
+  --Coursal-BgColor:rgba(245, 247, 250, 1);
+
+  /* Client Section  */
+  --ClientHeading-TextColor:rgba(77, 77, 77, 1);
+  --clientbody-TextColor:rgba(113, 113, 113, 1);
+  --Client-BgColor:white;
+
+  /* Community Section  */
+  --CommunityHeading-TextColor:rgba(77, 77, 77, 1);
+  --CommunityBody-TextColor:rgba(113, 113, 113, 1);
+  --CommunityCardHeading-TextColor:rgba(77, 77, 77, 1);
+  --communityCardBody-TextColor:rgba(113, 113, 113, 1);
+  --CommunityCard-bgColor:#fff;
+  --Community-bgColor:White;
+
+  /* Pixegrade section  */
+  --PixelgradeHeading-TextColor:rgba(77, 77, 77, 1);
+  --PixelgradeBody-TextColor:rgba(113, 113, 113, 1);
+  --PixelgradleBody-bgColor:white;
+
+  /* LocalBussiness Section  */
+  --LocalBussiness-BgColor:rgba(245, 247, 250, 1);
+  --LocalBussinessPrimaryHeading-TextColor:rgba(77, 77, 77, 1);
+  --LocaalBussinessSecondaryHeadingTextColor:rgba(76, 175, 79, 1);
+  --LocalBussinessBody-TextColor:rgba(24, 25, 31, 1);
+  --LocalBussinessBadgeBody-TextColor:rgba(113, 113, 113, 1);
+
+  /* Customer Section  */
+  --Customer-BgColor:rgba(245, 247, 250, 1);
+  --CustomerPrimaryBody-TextColor:rgba(113, 113, 113, 1);
+  --CustomerSecondaryBody-TextColor:rgba(137, 147, 158, 1);
+  --CustomerName-TextColor:rgba(76, 175, 79, 1);
+
+  /* Marketing Section  */
+  --MarketingHeading-TextColor:rgba(77, 77, 77, 1);
+  --MarketingBody-TextColor:rgba(113, 113, 113, 1);
+  --MarketingCardBody-TextColor:rgba(113, 113, 113, 1);
+  --MarketingCardShadow-BgColor:rgba(171, 190, 209, 0.4);
+  --Marketing-bgColor:White;
+  --MarketingCard-bgColor:white;
+ 
+
+  /* Demo Section  */
+  --Demo-BgColor:rgba(245, 247, 250, 1);
+  --DemoHeading-TextColor:rgba(38, 50, 56, 1);
+
+  /* Footer Section */
+  --Footer-BgColor:rgba(38, 50, 56, 1);
+  --FooterBody-TextColor:rgba(217, 219, 225, 1);
+  --FooterHeading-TextColor:rgba(255, 255, 255, 1);
+  --FooterInputFeild-TextColor:rgba(217, 219, 225, 1);
+  --FooterInputFeild-BgColor:#2d3d46;
+  --FooterInput-Color:White;
+}
+
+body.dark{
+  /* Navbar Section  */
+  --Navbar-BgColor:rgb(40, 40, 41);
+  --NavbarLink-TextColor:rgb(255, 255, 255);
+
+  /* Coursal Section */
+  --Coursal-BgColor:rgba(0, 0, 0, 0.925);
+  --CoursalBody-TextColor:rgb(170, 170, 170);
+  --CoursalMainHeading-TextColor:rgb(255, 255, 255);
+
+   /* Client Section  */
+  --ClientHeading-TextColor:rgb(255, 255, 255);
+  --clientbody-TextColor:rgb(170, 170, 170);
+  --Client-BgColor:rgba(0, 0, 0, 0.925);
+
+  /* Community Section  */
+  --CommunityHeading-TextColor:rgb(255, 255, 255);
+  --CommunityBody-TextColor:rgb(170, 170, 170);
+  --Community-bgColor:rgba(0, 0, 0, 0.925);
+  --CommunityCardHeading-TextColor:rgb(255, 255, 255);
+  --communityCardBody-TextColor:rgb(170, 170, 170);
+  --CommunityCard-bgColor:rgb(40, 40, 41);
+
+  /* PixelGradle  */
+  --PixelgradleBody-bgColor:rgba(0, 0, 0, 0.925);
+  --PixelgradeHeading-TextColor:rgb(255, 255, 255);
+  --PixelgradeBody-TextColor:rgb(170, 170, 170);
+
+  /* LocalBussiness Section  */
+  --LocalBussiness-BgColor:rgba(0, 0, 0, 0.925);
+  --LocalBussinessPrimaryHeading-TextColor:rgb(255, 255, 255);
+  --LocalBussinessBody-TextColor:rgb(170, 170, 170);
+  --LocalBussinessBadgeBody-TextColor:rgb(170, 170, 170);
+
+   /* Customer Section  */
+  --Customer-BgColor:rgba(0, 0, 0, 0.925);
+  --CustomerPrimaryBody-TextColor:rgb(170, 170, 170);
+  --CustomerSecondaryBody-TextColor:rgb(170, 170, 170);
+  --CustomerName-TextColor:rgba(76, 175, 79, 1);
+
+
+  /* Marketing */
+  --Marketing-bgColor:rgba(0, 0, 0, 0.925);
+  --MarketingHeading-TextColor:rgb(255, 255, 255);
+  --MarketingBody-TextColor:rgb(170, 170, 170);
+  --MarketingCard-bgColor:rgb(40, 40, 41); 
+  --MarketingCardBody-TextColor:white;
+
+    /* Demo Section  */
+  --Demo-BgColor:rgba(0, 0, 0, 0.925);
+  --DemoHeading-TextColor:rgb(255, 255, 255);
+
+  /* Footer Section */
+  --Footer-BgColor:rgb(40, 40, 41);
+
+  /* Buttons */
+  --TertiaryButton-BgColor:rgb(40, 40, 41);
+
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.AppContainer {
+  width: 100%;
+  max-width: 1400px;  
+  margin: 0 auto;     
+      
+}

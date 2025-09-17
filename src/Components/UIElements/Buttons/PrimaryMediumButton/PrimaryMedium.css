@@ -1,0 +1,13 @@
+.BtnPrimaryMedium{
+    padding: 0.9rem 2rem 0.9rem 2rem;
+    border: none;
+    color: var(--PrimaryButtons-TextColor);
+    background-color: var(--PrimaryButton-BgColor);
+    cursor: pointer;
+    border-radius: 0.3rem;
+    font-weight: 500;
+}
+
+.BtnPrimaryMedium:hover{
+    background-color: var(--PrimaryButtonHover-BgColor);
+}

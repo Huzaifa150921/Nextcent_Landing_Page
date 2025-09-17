@@ -1,0 +1,16 @@
+.BtnPrimaryRight{
+    padding: 1rem 2rem 1rem 2rem;
+    border-radius: 0.3rem;
+    border: none;
+    color: var(--PrimaryButtons-TextColor);
+    background-color: var(--PrimaryButton-BgColor);
+    cursor: pointer;
+    display: flex;
+    gap: 0.5rem;
+    font-weight: 500;
+}
+
+.BtnPrimaryRight:hover{
+background-color:var(--PrimaryButtonHover-BgColor);
+}
+

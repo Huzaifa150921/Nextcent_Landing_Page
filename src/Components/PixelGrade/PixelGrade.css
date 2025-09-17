@@ -1,0 +1,98 @@
+.PixelGrade {
+    width: 100%;
+    min-height: 70vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: var(--PixelgradleBody-bgColor);
+}
+
+.PixelGradeContent h2 {
+    color: var(--PixelgradeHeading-TextColor);
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.PixelGradeContent h6 {
+    color: var(--PixelgradeBody-TextColor);
+    font-weight: 400;
+    font-size: 1rem;
+    padding: 1rem 0;
+    width: 80%;
+}
+
+.PixelGradeContent {
+    width: 45%;
+}
+
+.PixelGrade img {
+    width: 30%;
+    height: auto;
+    max-width: 350px;
+}
+
+@media (max-width: 1024px) {
+    .PixelGrade {
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .PixelGradeContent {
+        width: 70%;
+        text-align: center;
+    }
+
+    .PixelGradeContent h2 {
+        font-size: 1.8rem;
+    }
+
+    .PixelGradeContent h6 {
+        font-size: 0.95rem;
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .PixelGrade img {
+        max-width: 300px;
+        width: 50%;
+    }
+}
+
+@media (max-width: 768px) {
+    .PixelGradeContent {
+        width: 85%;
+    }
+
+    .PixelGradeContent h2 {
+        font-size: 1.6rem;
+    }
+
+    .PixelGradeContent h6 {
+        font-size: 0.9rem;
+    }
+
+    .PixelGrade img {
+        max-width: 250px;
+        width: 60%;
+    }
+}
+
+@media (max-width: 480px) {
+    .PixelGradeContent {
+        width: 95%;
+    }
+
+    .PixelGradeContent h2 {
+        font-size: 1.4rem;
+    }
+
+    .PixelGradeContent h6 {
+        font-size: 0.85rem;
+    }
+
+    .PixelGrade img {
+        max-width: 200px;
+        width: 70%;
+    }
+}
