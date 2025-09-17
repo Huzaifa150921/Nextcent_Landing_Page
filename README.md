@@ -18,10 +18,10 @@ The project is fully responsive, supports **light/dark mode**, and follows clean
 ## 📸 Screenshots  
 
 ### Light Mode  
-![Light Mode Screenshot](./screenshots/lightmode.png)  
+![Light Mode Screenshot](./lightmode.png)  
 
 ### Dark Mode  
-![Dark Mode Screenshot](./screenshots/darkmode.png)  
+![Dark Mode Screenshot](./darkmode.png)  
 
 ---
 
@@ -44,5 +44,4 @@ npm run dev
 
 
 
-## 📂 Project Structure  
 
